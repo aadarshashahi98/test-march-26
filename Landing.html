@@ -2,9 +2,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./Landing.css"/>
+    <title>Landing Page</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="flex justify-between items-center bg-black px-4">
+            <div class="bg-white m-2 px-4 py-2">Logo</div>
+            <ul class="text-white flex gap-5 items-center">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Service</a></li>
+                <li><a>Contact</a></li>
+                <li><a>News</a></li>
+                <div class="flex items-center gap-4">
+                    <li><button class="border border-white px-4 py-2 rounded-lg text-sm">Login</button></li>
+                    <div class="px-[1px] py-4 bg-white"></div>
+                    <li><a>Get Started</a></li>
+                </div>
+            </ul>
+        </nav>
+    <header>
+    <main>
+        <section>
+            <div class="relative">
+                <div class="top-0 w-full h-[70vh]">
+                    <img src="./images/hero.jpg" alt="Hero Image" class="w-full h-full object-cover"/>
+                </div>
+                <div class="absolute bg-black/40 h-[70vh] w-full top-0 -z-index-10"></div>
+                <div class="absolute top-0 flex flex-col justify-center items-start h-full ml-10 gap-5 z-index-10">
+                    <h1 class="text-4xl font-bold mt-24">Hello! Welcome to the <br/>Landing Page</h1>
+                    <button class="px-4 py-2 bg-blue-300 font-medium">Learn More</button>
+                    <div>
+                </div>
+            </div>
+        </section>
+        <section class="flex justify-between py-10 px-10 gap-70 bg-gray-200">
+            <div class="w-full flex flex-col justify-center gap-5">
+                <h2 class="text-2xl font-semibold">About Us</h2>
+                <p class="text-lg text-justify">This is a sample landing page. This is a about section for the main description of the landing page.This is a sample landing page. This is a about section for the main description of the landing page.This is a sample landing page. This is a about section for the main description of the landing page.</p>
+            </div>
+            <div class="w-full">
+                <div class="h-100 w-100 -skew-x-10">
+                    <img class="h-full w-full object-cover" src="./images/hero.jpg" alt="Hero Image"/>
+                </div>
+            </div>
+        </section>
+        <section class="flex flex-col justify-center items-center m-8">
+            <h2 class="text-3xl font-bold my-10">Featured Cards</h2>
+            <div class="grid grid-cols-4 gap-5 gap-y-20">
+                <div class="rounded-lg h-80 w-70">
+                    <div class="h-80 w-70 rounded-lg">
+                        <img src="./images/hero.jpg" alt="card image" class="h-full w-full object-cover"/>
+                    </div>
+                    <div class="ml-2">
+                        <h3 class="font-[500] text-lg">Card Title</h3>
+                        <span class="text-sm">Card Description</span>
+                    </div>
+                </div>
+                <div class="rounded-lg h-80 w-70">
+                    <div class="h-80 w-70">
+                        <img src="./images/hero.jpg" alt="card image" class="h-full w-full object-cover"/>
+                    </div>
+                    <div class="ml-2">
+                        <h3 class="font-[500] text-lg">Card Title</h3>
+                        <span class="text-sm">Card Description</span>
+                    </div>
+                </div>
+                <div class="rounded-lg h-80 w-70">
+                    <div class="h-80 w-70 rounded-lg">
+                        <img src="./images/hero.jpg" alt="card image" class="h-full w-full object-cover"/>
+                    </div>
+                    <div class="ml-2">
+                        <h3 class="font-[500] text-lg">Card Title</h3>
+                        <span class="text-sm">Card Description</span>
+                    </div>
+                </div>
+                <div class="rounded-lg h-80 w-70">
+                    <div class="h-80 w-70">
+                        <img src="./images/hero.jpg" alt="card image" class="h-full w-full object-cover"/>
+                    </div>
+                    <div class="ml-2">
+                        <h3 class="font-[500] text-lg">Card Title</h3>
+                        <span class="text-sm">Card Description</span>
+                    </div>
+                </div>
+                <div class="rounded-lg h-80 w-70">
+                    <div class="h-80 w-70 rounded-lg">
+                        <img src="./images/hero.jpg" alt="card image" class="h-full w-full object-cover"/>
+                    </div>
+                    <div class="ml-2">
+                        <h3 class="font-[500] text-lg">Card Title</h3>
+                        <span class="text-sm">Card Description</span>
+                    </div>
+                </div>
+                <div class="rounded-lg h-80 w-70">
+                    <div class="h-80 w-70">
+                        <img src="./images/hero.jpg" alt="card image" class="h-full w-full object-cover"/>
+                    </div>
+                    <div class="ml-2">
+                        <h3 class="font-[500] text-lg">Card Title</h3>
+                        <span class="text-sm">Card Description</span>
+                    </div>
+                </div>
+                <div class="rounded-lg h-80 w-70">
+                    <div class="h-80 w-70 rounded-lg">
+                        <img src="./images/hero.jpg" alt="card image" class="h-full w-full object-cover"/>
+                    </div>
+                    <div class="ml-2">
+                        <h3 class="font-[500] text-lg">Card Title</h3>
+                        <span class="text-sm">Card Description</span>
+                    </div>
+                </div>
+                <div class="rounded-lg h-80 w-70">
+                    <div class="h-80 w-70">
+                        <img src="./images/hero.jpg" alt="card image" class="h-full w-full object-cover"/>
+                    </div>
+                    <div class="ml-2">
+                        <h3 class="font-[500] text-lg">Card Title</h3>
+                        <span class="text-sm">Card Description</span>
+                    </div>
+                </div>
+            </div>
+            <button class="bg-blue-300 px-4 py-2 my-20">View More</button>
+        </section>
+    </main>
+    <footer class="grid grid-cols-4 bg-black text-white p-10">
+        <div>
+            <h3 class="mb-3 text-xl font-medium">Discover Now</h3>
+        </div>
+        <div>
+            <h3 class="mb-3 text-xl font-medium">Quick Links</h3>
+            <ul class="flex flex-col gap-2 mx-2">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="mb-3 text-xl font-medium">Quick Links</h3>
+            <ul class="flex flex-col gap-2 mx-2">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="mb-3 text-xl font-medium">Quick Links</h3>
+            <ul class="flex flex-col gap-2 mx-2">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
